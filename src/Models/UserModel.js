@@ -10,4 +10,5 @@ const userSchamaStructure = {
 const userSchema = new mongoose.Schema(userSchamaStructure);
 
 const User = new mongoose.model('user', userSchema);
+
 module.exports = User;
